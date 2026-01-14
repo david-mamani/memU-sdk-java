@@ -30,7 +30,7 @@ import java.util.List;
 public class MemUExample {
     public static void main(String[] args) {
         // 1. Initialize the client
-        String baseUrl = "https://api.memu.ai"; // Replace with actual API URL
+        String baseUrl = "https://api.memu.ai";
         String apiKey = System.getenv("MEMU_API_KEY");
         
         MemUClient client = new MemUClient(baseUrl, apiKey);
